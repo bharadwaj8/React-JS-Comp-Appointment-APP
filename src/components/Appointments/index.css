@@ -1,0 +1,102 @@
+.bg {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  padding: 20px 100px 20px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.card {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 100%;
+}
+.heading {
+  color: #171f46;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.card-input {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.label {
+  color: #b5b7c4;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.input {
+  border-radius: 5px;
+  border: 1px solid #b5b7c4;
+  outline: none;
+  padding: 10px;
+  font-size: 15px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.add-button {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #8b5cf6;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0px;
+  margin-top: 10px;
+}
+@media screen and (max-width: 575px) {
+  .image {
+    display: none;
+  }
+}
+.line {
+  height: 3px;
+  background-color: #b5b7c4;
+  color: #b5b7c4;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.card-footer-header {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-heading {
+  color: #171f46;
+  font-size: 25px;
+  margin-top: 0px;
+}
+.filter-button {
+  border: 1px solid #8b5cf6;
+  color: #8b5cf6;
+  padding: 0px;
+  height: 20px;
+  font-size: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: transparent;
+  padding: 0px 10px 0px 10px;
+}
+.active {
+  background-color: #8b5cf6;
+  color: #ffffff;
+}
+.card-appointments {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 575px) {
+  .card-appointments {
+    display: block;
+  }
+}

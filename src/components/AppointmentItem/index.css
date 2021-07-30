@@ -1,0 +1,34 @@
+.appointment {
+  border-radius: 10px;
+  border: 2px solid #b5b7c4;
+  padding: 0px 10px 0px 10px;
+  width: 300px;
+  list-style: none;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 575px) {
+  .appointment {
+    width: 100%;
+  }
+}
+.appointment-header {
+  display: flex;
+  justify-content: space-between;
+}
+.appointment-title {
+  font-size: 15px;
+  font-weight: bold;
+  color: #171f46;
+}
+.star-button {
+  background-color: transparent;
+  border: 0px;
+}
+.star-icon {
+  width: 20px;
+}
+.appointment-desc {
+  margin-top: 0px;
+  color: #b5b7c4;
+}
